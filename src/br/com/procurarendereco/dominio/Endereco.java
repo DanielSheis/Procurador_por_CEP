@@ -4,6 +4,7 @@ public class Endereco {
     String logradouro;
     String bairro;
     String localidade;
+    String ddd;
 
     public String getLogradouro() {
         return logradouro;
@@ -27,6 +28,14 @@ public class Endereco {
 
     public void setLocalidade(String localidade) {
         this.localidade = localidade;
+    }
+
+    public String getDdd() {
+        return ddd;
+    }
+
+    public void setDdd(String ddd) {
+        this.ddd = ddd;
     }
 
     @Override

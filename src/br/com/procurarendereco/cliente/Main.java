@@ -16,6 +16,7 @@ public class Main {
         System.out.println("Logradouro: " + endereco.getLogradouro());
         System.out.println("Bairro: " + endereco.getBairro());
         System.out.println("localidade: " + endereco.getLocalidade());
+        System.out.println("DDD: " + endereco.getDdd());
 
         System.out.println("------------------------------------------");
     }
